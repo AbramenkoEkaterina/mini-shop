@@ -6,4 +6,4 @@ export const store = configureStore({
 })
 
 //Возьми тип функции dispatch из моего store и назови его AppDispatch
-export type AddDispatch = typeof store.dispatch
+export type AddDispatch = typeof store.dispatch;

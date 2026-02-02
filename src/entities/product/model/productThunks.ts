@@ -1,5 +1,5 @@
 import { createAsyncThunk } from '@reduxjs/toolkit'
-import type { Product, ProductApi } from './types'
+import type { Product, ProductApi } from './product.types'
 import { productsApi } from '../../../shared/api/products'
 
 export const fetchProducts = createAsyncThunk<Product[], void, { rejectValue: string }>(

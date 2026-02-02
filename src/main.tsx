@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { AppProviders } from '../src/app/providers';
-import { HomePage } from './pages/HomePage';
+import { AppProviders } from './app/providers';
+import { AppRouter } from './routes/AppRouter';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
     <AppProviders>
-      <HomePage />
+      <AppRouter />
     </AppProviders>
   </React.StrictMode>
 )
