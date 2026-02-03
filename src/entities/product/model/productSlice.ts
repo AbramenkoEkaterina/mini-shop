@@ -6,6 +6,8 @@ interface ProductState {
   items: Product[]
   loading: boolean
   error: string | null
+
+  
 }
 
 const initialState: ProductState = {
